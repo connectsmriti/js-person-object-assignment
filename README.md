@@ -1,3 +1,3 @@
 # js-person-object-assignment
 
-link: 
+link: https://connectsmriti.github.io/js-person-object-assignment/
