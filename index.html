@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+
+        * {
+            margin: 0px 0px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+
+        body {
+            margin: 50px 50px;
+            background-color: white;
+            color: #444444;
+        }
+
+        h1,
+        h3,
+        h4 {
+            color: rgb(71, 98, 255);
+        }
+
+        p {
+            padding: 15px;
+        }
+
+        .ques {
+            font-weight: 800;
+            font-size: large;
+        }
+
+        .var {
+            color: rgb(211, 129, 211);
+        }
+
+        .symbol {
+            color: lightblue;
+        }
+
+        .name {
+            color: rgb(112, 112, 243);
+        }
+
+        .string {
+            color: lightgreen;
+        }
+
+        .in {
+            margin-left: 25px;
+            ;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            padding: 5px;
+        }
+
+        button {
+            background-color: rgb(79, 190, 157);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+            transform: scale(1.4);
+            transition: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: 0px 20%;">
+        <h1 style="padding: 40px; text-align: center;">Question</h1>
+        <p class="ques">Q) Create an object ‘Person’ in Java Script, which will have ‘FirstName’, ’LastName’ and ‘Office
+            Address’ as properties within it.
+            Create three Persons and print all those three properties.</p>
+
+        <p style="text-align: right; padding: 15px;">
+            Name: Smriti Gupta<br>
+            Roll no: 2006118 <br>
+        </p>
+
+        <hr>
+
+        <!-- Intro -->
+        <p style="padding: 15px;">
+        <h3>Code: </h3> <br>
+
+        <div
+            style="background-color: #282C34; color: white; font-size: 15px; border: 1px solid white; margin-bottom: 40px;">
+            <div style="padding: 15px;">
+                <span class="var">var </span> person1 <span class="symbol">= {</span><br>
+                <div class="in">
+                    FirstName: <span class="symbol">'</span><span class="string">Smriti</span><span
+                        class="symbol">',</span><br>
+                    LastName: <span class="symbol">'</span><span class="string">Gupta</span><span
+                        class="symbol">',</span><br>
+                    OfficeAdress: <span class="symbol">'</span><span class="string">Near Gandhi chowk, Malviya Nagar</span><span
+                        class="symbol">'</span><br>
+                </div>
+                <span class="symbol">}</span> <br>
+                <br>
+
+                <span class="var">var </span> person2 <span class="symbol">= {</span><br>
+                <div class="in">
+                    FirstName: <span class="symbol">'</span><span class="string">Isha</span><span
+                        class="symbol">',</span><br>
+                    LastName: <span class="symbol">'</span><span class="string">Gupta</span><span
+                        class="symbol">',</span><br>
+                    OfficeAdress: <span class="symbol">'</span><span class="string">Near Gandhi Maidan, Patna, Bihar</span><span
+                        class="symbol">'</span><br>
+                </div>
+                <span class="symbol">}</span> <br>
+                <br>
+
+                <span class="var">var </span> person3 <span class="symbol">= {</span><br>
+                <div class="in">
+                    FirstName: <span class="symbol">'</span><span class="string">Neha</span><span
+                        class="symbol">',</span><br>
+                    LastName: <span class="symbol">'</span><span class="string">Sharma</span><span
+                        class="symbol">',</span><br>
+                    OfficeAdress: <span class="symbol">'</span><span class="string">Vikas Nagar, Road 7, Kolkata</span><span class="symbol">'</span><br>
+                </div>
+                <span class="symbol">}</span> <br>
+                <br>
+
+                console<span class="symbol">.</span><span class="name">log</span>(person1) <span
+                    class="symbol">;</span><br>
+                console<span class="symbol">.</span><span class="name">log</span>(person2) <span
+                    class="symbol">;</span><br>
+                console<span class="symbol">.</span><span class="name">log</span>(person3) <span
+                    class="symbol">;</span><br>
+            </div>
+        </div>
+        </p>
+
+        <hr>
+
+
+        <p style="padding: 15px;">
+        <h3>Output Screenshot: </h3> <br>
+        <h3 style="color: rgb(55, 58, 51);">(Check console for Output)</h3>
+
+        <img src="consoleJs.jpg" class="center" alt="">
+        </p>
+
+        <hr>
+
+        <div style="text-align: center; padding: 15px;">
+            <a href="https://github.com/connectsmriti/js-person-object-assignment">
+                <button>
+                    Github Code
+                </button>
+            </a>
+        </div>
+
+</body>
+<script src="person.js"></script>
+
+</html>
